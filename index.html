@@ -82,7 +82,7 @@
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<p>&#9888; Still under progress<span style="color: red;"></span></p>
+								<p></p>
 								<form method="post" action="#">
 									<div class="fields">
 										<div class="field half">
@@ -99,13 +99,26 @@
 										</div>
 									</div>
 									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li> <input type="button" value="Submit Message" onclick="redirectToPage(); showAlert();">
+										
+											<script>
+												function redirectToPage() 
+												{
+           							 				// You can replace the URL with the desired destination
+           								 			window.location.href = "#";
+												}
+												function showAlert()
+												{
+													alert("Your Response has been recorded!Thank you");
+												}
+												
+											</script></li>
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
 								</form>
 								<ul class="icons">
 									<li><a href="https://www.linkedin.com/in/ayush-garg-0987ba286" class="icon brands fa-linkedin"><span class="label">fa-linkedin</span></a></li>
-									<li><a href="https://www.instagram.com/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://www.instagram.com/a_yu_sh76/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 									<li><a href="https://github.com/TeckHack76" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</article>
